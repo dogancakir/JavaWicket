@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="style1.css" />
+<title>User Display Page</title>
+</head>
+<body>
+	<nav wicket:id="navigation">navigation panel</nav>
+
+	<table>
+		<tr>
+			<th>User Name:</th>
+			<td wicket:id=username>username</td>
+		</tr>
+		<tr>
+			<th>Name</th>
+			<td wicket:id=name>name</td>
+		</tr>
+		<tr>
+			<th>Surname</th>
+			<td wicket:id="surname">surname</td>
+		</tr>
+		<tr>
+			<th>Birthday</th>
+			<td wicket:id="birthday">01/01/0001</td>
+		</tr>
+		<tr>
+			<th>Auth Level</th>
+			<td wicket:id="authlevel">1</td>
+		</tr>
+	</table>
+	<p><a href="#" wicket:id="edit_link">Edit User</a></p>
+	<footer>
+		<div id="zaman" wicket:id="zaman">datetime</div>
+	</footer>
+
+</body>
+</html>

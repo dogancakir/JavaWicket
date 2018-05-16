@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="style1.css" />
+<title>Album Edit Page</title>
+</head>
+<body>
+	<nav wicket:id="navigation">asd</nav>
+	<h1>Album Edit Page</h1>
+
+	<form action="#" wicket:id=album_edit_form>
+		<th>Album Edit Page</th>
+		<table>
+			<tr>
+				<td>Enter Name of Album:</td>
+				<td><input wicket:id="_name" type="text"  placeholder="James"/> <!-- close tage link gibi -->
+				</td>
+			</tr>
+
+			<tr>
+				<td>Enter year of Album:</td>
+				<td><input wicket:id="_year" type="text" placeholder="44"/></td>
+			</tr>
+
+			<tr>
+				<td>Enter song number of Album:</td>
+				<td><input wicket:id="_song_number" type="text" placeholder="51"/></td>
+			</tr>
+			
+			<tr>
+				<td>Enter studio of Album:</td>
+				<td><input wicket:id="studio" type="text" placeholder="51"/></td>
+			</tr>
+			<tr>
+				<td>Enter artist of Album:</td>
+				<td><input wicket:id="artist" type="text" placeholder="cobain"/></td>
+			</tr>
+		</table>
+		
+		<input value="Save" name="kaydet" type="submit"/>
+	</form>
+
+
+	<footer>
+		<div id="zaman" wicket:id="zaman"></div>
+	</footer>
+</body>
+</html>

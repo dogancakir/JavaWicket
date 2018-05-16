@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="style1.css">
+<title>Person List Page</title>
+</head>
+<body>
+	<nav wicket:id="navigation">asd</nav>
+	
+	<form action="#" wicket:id="person_list_form">
+		<div wicket:id="selected_person">
+			<table>
+			<tr>
+			<th>Name Surname Age </th>
+			</tr>
+				<tr wicket:id="person_list_tr">
+					<td><input type="checkbox" wicket:id="selected_checkbox" /></td>
+					<td>
+					<a href="#" wicket:id="person_link">
+					<span wicket:id="name">Person Name</span>
+					<span wicket:id="surname">Person Surname</span>
+					<span wicket:id="age">Person Age</span>
+					<span wicket:id="band">Person Band</span>
+					<span wicket:id="location">Person Band</span>
+					<span wicket:id="instrument">Person Band</span>
+					</a>
+					</td>
+				</tr>
+			</table>
+		</div>
+		
+		<input type="submit" value="DELETE" name="delete_submit_button"/> 
+	</form>
+
+	<footer id="zaman" wicket:id="zaman">ghj</footer>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="style1.css" />
+<title>Genre Edit Page</title>
+</head>
+<body>
+	<nav wicket:id="navigation">asd</nav>
+	<h1>Genre Edit Page</h1>
+
+	<form action="#" wicket:id=genre_edit_form>
+		<th>Genre Edit Page</th>
+		<table>
+			<tr>
+				<td>Enter Name of Genre:</td>
+				<td><input wicket:id="name" type="text"  placeholder="Jazz"/> <!-- close tage link gibi -->
+				</td>
+			</tr>
+
+			<tr>
+				<td>Enter Instrument of Genre:</td>
+				<td><input wicket:id="instrument" type="text" placeholder="Saxophone"/></td>
+			</tr>
+
+			<tr>
+				<td>Enter Main Location of Genre</td>
+				<td><input wicket:id="location" type="text" placeholder="Old Africa"/></td>
+			</tr>
+			<tr>
+				<td>Enter Information about Genre:</td>
+				<td><input wicket:id="info" type="text" placeholder="Jazz is a genre of music that originated in African-American communities during the late 19th and early 20th century."/></td>
+			</tr>
+			<tr>
+				<td>Enter Award about Genre:</td>
+				<td><input wicket:id="award" type="text" placeholder="award"/></td>
+			</tr>
+		</table>
+		
+		<input value="Save" name="kaydet" type="submit"/>
+	</form>
+
+
+	<footer>
+		<div id="zaman" wicket:id="zaman"></div>
+	</footer>
+</body>
+</html>

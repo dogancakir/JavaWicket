@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="style1.css" />
+<title>Artist Edit Page</title>
+
+
+</head>
+<body>
+	<header>
+		<nav wicket:id="navigation">Navigationsss</nav>
+		
+	</header>
+
+	<form action="#" wicket:id="add_artist_form">
+		<!-- The action attribute specifies where to send the form-data when a form is submitted. -->
+		<th>Artist Edit Page</th><!-- update icin de kullanilacak  -->
+		<table>
+			<tr>
+				<td><input wicket:id="name" type="text"
+					placeholder="Enter name of the artist" required autofocus /></td>
+			</tr>
+			<tr>
+				<td><input wicket:id="genre" type="text"
+					placeholder="Enter genre of the artist" /></td>
+			</tr>
+			<tr>
+				<td><input wicket:id="memberNumber" type="text"
+					placeholder="Enter member count" /></td>
+			</tr>
+			<tr>
+				<td><input wicket:id="url" type="text"
+					placeholder="Website" /></td>
+			</tr>
+		</table>
+
+		<input value="Save" name="kaydet" type="submit" />
+	</form>
+
+	<footer>
+		<div id="zaman" wicket:id="zaman">saldasf</div>
+	</footer>
+
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="style1.css" />
+<title>Person Edit Page</title>
+</head>
+<body>
+	<nav wicket:id="navigation">asd</nav>
+	<h1>Person Edit Page</h1>
+
+	<form action="#" wicket:id=person_edit_form>
+		<th>Person Edit Page</th>
+		<table>
+			<tr>
+				<td>Enter Name of Person:</td>
+				<td><input wicket:id="name" type="text"  placeholder="James"/> <!-- close tage link gibi -->
+				</td>
+			</tr>
+
+			<tr>
+				<td>Enter Surname of Person:</td>
+				<td><input wicket:id="surname" type="text" placeholder="Hetfield"/></td>
+			</tr>
+
+			<tr>
+				<td>Enter Age of Person:</td>
+				<td><input wicket:id="age" type="text" placeholder="51"/></td>
+			</tr>
+			<tr>
+				<td>Enter Band of Person</td>
+				<td><input wicket:id="band" type="text" placeholder="Metallica"/></td>
+				
+			</tr>
+			<tr>
+				<td>Enter Location of Person</td>
+				<td><input wicket:id="location" type="text" placeholder="Denver"/></td>
+				
+			</tr>
+			<tr>
+				<td>Enter Instrument of Person</td>
+				<td><input wicket:id="instrument" type="text" placeholder="Bass Guitar"/></td>
+				
+			</tr>
+		</table>
+		
+		<input value="Save" name="kaydet" type="submit"/>
+	</form>
+
+
+	<footer>
+		<div id="zaman" wicket:id="zaman"></div>
+	</footer>
+</body>
+</html>

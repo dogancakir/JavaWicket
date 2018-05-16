@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="style1.css" />
+<title>User Edit Page</title>
+</head>
+<body>
+	<header>
+		<nav wicket:id="navigation">Navigation Panel</nav>
+
+	</header>
+
+	<form action="#" wicket:id="add_user_form">
+		<!-- The action attribute specifies where to send the form-data when a form is submitted. -->
+		<th>User Edit Page</th>
+		<!-- update icin de kullanilacak  -->
+
+		<table>
+			<tr>
+				<td><input wicket:id="username" type="text"
+					placeholder="username" required autofocus /></td>
+			</tr>
+			<tr>
+				<td><input wicket:id="password" type="password"
+					placeholder="password" /></td>
+			</tr>
+			<tr>
+				<td><input wicket:id="name" type="text" placeholder="name" /></td>
+			</tr>
+			<tr>
+				<td><input wicket:id="surname" type="text"
+					placeholder="surname" /></td>
+			</tr>
+			<tr>
+				<td><input wicket:id="birthday" type="text"
+					placeholder="birthday" /></td>
+			</tr>
+			<tr>
+				<td><input wicket:id="authlevel" type="text" placeholder="0" /></td>
+			</tr>
+
+		</table>
+
+		<input value="Save" name="kaydet" type="submit" />
+	</form>
+
+	<footer>
+		<div id="zaman" wicket:id="zaman">time</div>
+	</footer>
+</body>
+</html>

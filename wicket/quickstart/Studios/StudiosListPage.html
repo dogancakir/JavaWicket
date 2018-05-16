@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="style1.css" />
+<title>Studios List Page</title>
+</head>
+<body>
+	<nav wicket:id="navigation">asd</nav>
+	<form action="#" wicket:id="studio_list_form">
+		<div wicket:id="selected_studio">
+			<table>
+			<tr>
+			<th>Name - Location - Owner - Foundation Year - Artist - URL </th>
+			</tr>
+
+				<tr wicket:id="studio_list_tr">
+					<td><input type="checkbox" wicket:id="selected_checkbox" /></td>
+					<td>
+					<a href="#" wicket:id="studio_link">
+					<span wicket:id="name">Studio Name</span>
+					<span wicket:id="location">Studio Location</span>
+					<span wicket:id="owner">Studio Owner</span>
+					<span wicket:id="foundationDate">Studio Foundation Year</span>
+					<span wicket:id="artist">Studio Artist</span>
+					<span wicket:id="link">Studio Link</span>
+					</a>
+					</td>
+				</tr>
+			</table>
+		</div>
+		
+		<input type="submit" value="DELETE" name="delete_submit_button"/> 
+	</form>
+
+	<footer id="zaman" wicket:id="zaman">ghj</footer>
+</body>
+</html>

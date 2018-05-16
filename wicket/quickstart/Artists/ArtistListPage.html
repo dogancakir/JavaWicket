@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="style1.css" />
+<title>List Artist Page</title>
+</head>
+<body>
+	<nav wicket:id="navigation">Navigation Links</nav>
+	
+	<form action="#" wicket:id="artist_list_form">	
+	
+	<!-- We will group check boxes so that we can handle them easier using a CheckGroup component in Wicket. We
+use the div element  to establish this connection. -->
+	
+		<div wicket:id="selected_artists"><!-- *******secilenleri tutar******  -->
+		
+			<table>
+				<tr wicket:id="artist_list_tr">		
+					<td>
+						<input type="checkbox" wicket:id="selected" />
+					</td>					
+					<td>
+						<a href="#" wicket:id="artist_link"> 
+						<span wicket:id="name">Group Name</span> 
+						(<span wicket:id="genre">Genre</span>)
+						<span wicket:id="name2">artist Name</span> 
+						<span wicket:id="surname2">artist surName</span> 
+						<span wicket:id="url">artist url</span> 
+						-<span wicket:id="memberNumber">Member Number</span>
+					</a>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<input type="submit" value="Delete" name="delete" />
+	</form>
+	<footer>
+		<div id="zaman" wicket:id="zaman">asf</div>
+	</footer>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="style1.css" />
+<title>Lyrics Edit Page</title>
+</head>
+<body>
+	<nav wicket:id="navigation">asd</nav>
+	<h1>Lyrics Edit Page</h1>
+
+	<form action="#" wicket:id=lyrics_edit_form>
+		<th>Lyrics Edit Page</th>
+		<table>
+			<tr>
+				<td>Enter Lyrics in Original Language:</td>
+				<td><input wicket:id="original" type="text"  placeholder="father and son"/> <!-- close tage link gibi -->
+				</td>
+			</tr>
+
+			<tr>
+				<td>Enter Translated Lyrics:</td>
+				<td><input wicket:id="convert" type="text" placeholder="father and son"/></td>
+			</tr>
+
+		</table>
+		
+		<input value="Save" name="kaydet" type="submit"/>
+	</form>
+
+
+	<footer>
+		<div id="zaman" wicket:id="zaman"></div>
+	</footer>
+</body>
+</html>

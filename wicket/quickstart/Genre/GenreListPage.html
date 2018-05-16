@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="style1.css" />
+<title>Genre List Page</title>
+</head>
+<body>
+	<nav wicket:id="navigation">asd</nav>
+	<form action="#" wicket:id="genre_list_form">
+		<div wicket:id="selected_genre">
+			<table>
+			<tr>
+			<th>Name - Instrument - Location - Information </th>
+			</tr>
+				<tr wicket:id="genre_list_tr">
+					<td><input type="checkbox" wicket:id="selected_checkbox" /></td>
+					<td>
+					<a href="#" wicket:id="genre_link">
+					<span wicket:id="name">Genre Name</span>
+					<span wicket:id="instrument">Genre Instrument</span>
+					<span wicket:id="location">Genre Location</span>
+					<span wicket:id="info">Genre Information</span>
+					<span wicket:id="award">Genre Award</span>
+					</a>
+					</td>
+				</tr>
+			</table>
+		</div>
+		
+		<input type="submit" value="DELETE" name="delete_submit_button"/> 
+	</form>
+
+	<footer id="zaman" wicket:id="zaman">ghj</footer>
+</body>
+</html>

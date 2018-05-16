@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="style1.css" />
+<title>URL Edit Page</title>
+</head>
+<body>
+	<nav wicket:id="navigation">asd</nav>
+	<h1>URL Edit Page</h1>
+
+	<form action="#" wicket:id=url_edit_form>
+		<th>URL Edit Page</th>
+		<table>
+			<tr>
+				<td>Enter Name URL:</td>
+				<td><input wicket:id="name" type="text"  placeholder="name"/> <!-- close tage link gibi -->
+				</td>
+			</tr>
+			<tr>
+				<td>Enter Wikipedia URL:</td>
+				<td><input wicket:id="wiki" type="text"  placeholder="wikipedia"/> <!-- close tage link gibi -->
+				</td>
+			</tr>
+
+			<tr>
+				<td>Enter Twitter URL:</td>
+				<td><input wicket:id="twitter" type="text" placeholder="twitter"/></td>
+			</tr>
+
+			<tr>
+				<td>Enter Facebook URL:</td>
+				<td><input wicket:id="facebook" type="text" placeholder="facebook"/></td>
+			</tr>
+			<tr>
+				<td>Enter Youtube URL:</td>
+				<td><input wicket:id="youtube" type="text" placeholder="youtube"/></td>
+			</tr>
+		</table>
+		
+		<input value="Save" name="kaydet" type="submit"/>
+	</form>
+
+
+	<footer>
+		<div id="zaman" wicket:id="zaman"></div>
+	</footer>
+</body>
+</html>

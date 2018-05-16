@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Artist Home Page</title>
+
+<link rel="stylesheet" href="style1.css" />
+<nav wicket:id="navigation">Navigation Panel</nav>
+
+
+<!--  css teki menu standardına uymak için menülerimizi class="menu" div
+içine koyuyoruz -->
+<div class="menu">
+	<ul>
+		<li><a href="#" wicket:id="user_list">List Users</a></li>
+		<li><a href="#" wicket:id="add_user">Add User</a></li>
+	</ul>
+</div>
+<br\> <!-- div den sonra html satır atlamadığı için ekliyoruz.  --> 
+
+
+</head>
+<body>
+	<h1>Users Home Page</h1>
+
+	<footer>
+		<div id="zaman" wicket:id="zaman">time</div>
+	</footer>
+</body>
+</html>
